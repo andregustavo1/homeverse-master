@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homeverse - Find your dream house</title>
+
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+  rel="stylesheet"
+  />
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" alt="Homeverse logo">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.png" alt="Homeverse logo">
+            </a>
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+
+              <li>
+                <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+              </li>
+
+              <li>
+                <a href="#about" class="navbar-link" data-nav-link>Sobre Nós</a>
+              </li>
+
+              <li>
+                <a href="#service" class="navbar-link" data-nav-link>Serviços</a>
+              </li>
+
+              <li>
+                <a href="#property" class="navbar-link" data-nav-link>Propriedades</a>
+              </li>
+
+              <li>
+                <a href="#contact" class="navbar-link" data-nav-link>Contato</a>
+              </li>
+
+            </ul>
+          </div>
+
+        </nav>
+
+        <div class="header-bottom-actions">
+
+          <button class="header-bottom-actions-btn" aria-label="Search">
+            <ion-icon name="search-outline"></ion-icon>
+
+            <span>Search</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" aria-label="Profile">
+            <ion-icon name="person-outline"></ion-icon>
+
+            <span>Profile</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" aria-label="Cart">
+            <ion-icon name="cart-outline"></ion-icon>
+
+            <span>Cart</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+
+            <span>Menu</span>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">
+              <ion-icon name="home"></ion-icon>
+
+              <span>Eduardo Canellas Imóveis</span>
+            </p>
+
+            <h2 class="h1 hero-title">Encontre a Casa dos Sonhos com a Gente</h2>
+
+            <p class="hero-text">
+              Uma imobiliária do tamanho do seu sonho, cujo proprietário é da família mais tradicional do município de Iguaba Grande-RJ.
+            </p>
+
+            <button class="btn">FAÇA UMA CONSULTA</button>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" alt="Modern house model" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner-1.png" alt="House interior">
+
+            <img src="./assets/images/about-banner-2.jpg" alt="House interior" class="abs-img">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Sobre Nós</p>
+
+            <h2 class="h2 section-title">O melhor site para encontrar o imóvel ideal.</h2>
+
+            <p class="about-text">
+              Seu novo lar está mais perto do que você imagina! Temos as melhores opções de imóveis com condições especiais e atendimento personalizado.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Design Moderno</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Conforto e Exclusividade</p>
+              </li>
+
+            </ul>
+
+            <p class="callout">
+              Transformamos espaços em lares perfeitos para você.
+            </p>
+
+            <a href="#service" class="btn">Faça uma Consulta</a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" id="service">
+        <div class="container">
+
+          <h2 class="h2 section-title">Nosso Foco Principal</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-1.png" alt="Service icon" class="service-icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Comprar um Imóvel</a>
+                </h3>
+
+                <p class="card-text">
+                  Encontre o lar perfeito com as melhores opções do mercado.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Descubra seu novo lar</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-2.png" alt="Service icon" class="service-icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Alugar um Imóvel</a>
+                </h3>
+
+                <p class="card-text">
+                  Escolha entre diversas opções de aluguel para atender às suas necessidades.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Descubra seu novo lar</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-3.png" alt="Service icon" class="service-icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Vender um Imóvel</a>
+                </h3>
+
+                <p class="card-text">
+                  Facilitamos a venda do seu imóvel com rapidez e segurança.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Descubra seu novo lar</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+<!--       
+        - #PROPERTY
+      -->
+
+      <section class="property" id="property">
+        <div class="container">
+      
+          <p class="section-subtitle">Propriedades</p>
+      
+          <h2 class="h2 section-title">Propriedades para você</h2>
+      
+          <ul class="property-list has-scrollbar">
+      
+            <li>
+              <div class="property-card">
+      
+                <figure class="card-banner">
+      
+                  <a href="#">
+                    <img src="./assets/images/property-1.jpg" alt="Novo Apartamento com Vista Bonita" class="w-100">
+                  </a>
+      
+                  <div class="card-badge green">Para Alugar</div>
+      
+                  <div class="banner-actions">
+      
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+      
+                      <address>Belmont Gardens, Chicago</address>
+                    </button>
+      
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+      
+                      <span>4</span>
+                    </button>
+      
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+      
+                      <span>2</span>
+                    </button>
+      
+                  </div>
+      
+                </figure>
+      
+                <div class="card-content">
+      
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Mês
+                  </div>
+      
+                  <h3 class="h3 card-title">
+                    <a href="#">Novo Apartamento com Vista Bonita</a>
+                  </h3>
+      
+                  <p class="card-text">
+                    Linda Casa de 1 Família no Coração de Westbury. Recém Reformada com Piso de Madeira Novo
+                  </p>
+      
+                  <ul class="card-list">
+      
+                    <li class="card-item">
+                      <strong>3</strong>
+      
+                      <ion-icon name="bed-outline"></ion-icon>
+      
+                      <span>Quartos</span>
+                    </li>
+      
+                    <li class="card-item">
+                      <strong>2</strong>
+      
+                      <ion-icon name="man-outline"></ion-icon>
+      
+                      <span>Banheiros</span>
+                    </li>
+      
+                    <li class="card-item">
+                      <strong>3450</strong>
+      
+                      <ion-icon name="square-outline"></ion-icon>
+      
+                      <span>Área (Ft²)</span>
+                    </li>
+      
+                  </ul>
+      
+                </div>
+      
+                <div class="card-footer">
+      
+                  <div class="card-author">
+      
+                    <figure class="author-avatar">
+                      <img src="./assets/images/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+      
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+      
+                      <p class="author-title">Corretor de Imóveis</p>
+                    </div>
+      
+                  </div>
+      
+                  <div class="card-footer-actions">
+      
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+      
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+      
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+      
+                  </div>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="property-card">
+      
+                <figure class="card-banner">
+      
+                  <a href="#">
+                    <img src="./assets/images/property-2.jpg" alt="Apartamentos Modernos" class="w-100">
+                  </a>
+      
+                  <div class="card-badge orange">Para Venda</div>
+      
+                  <div class="banner-actions">
+      
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+      
+                      <address>Belmont Gardens, Chicago</address>
+                    </button>
+      
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+      
+                      <span>4</span>
+                    </button>
+      
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+      
+                      <span>2</span>
+                    </button>
+      
+                  </div>
+      
+                </figure>
+      
+                <div class="card-content">
+      
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Mês
+                  </div>
+      
+                  <h3 class="h3 card-title">
+                    <a href="#">Apartamentos Modernos</a>
+                  </h3>
+      
+                  <p class="card-text">
+                    Linda Casa de 1 Família no Coração de Westbury. Recém Reformada com Piso de Madeira Novo
+                  </p>
+      
+                  <ul class="card-list">
+      
+                    <li class="card-item">
+                      <strong>3</strong>
+      
+                      <ion-icon name="bed-outline"></ion-icon>
+      
+                      <span>Quartos</span>
+                    </li>
+      
+                    <li class="card-item">
+                      <strong>2</strong>
+      
+                      <ion-icon name="man-outline"></ion-icon>
+      
+                      <span>Banheiros</span>
+                    </li>
+      
+                    <li class="card-item">
+                      <strong>3450</strong>
+      
+                      <ion-icon name="square-outline"></ion-icon>
+      
+                      <span>Área (Ft²)</span>
+                    </li>
+      
+                  </ul>
+      
+                </div>
+      
+                <div class="card-footer">
+      
+                  <div class="card-author">
+      
+                    <figure class="author-avatar">
+                      <img src="./assets/images/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+      
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+      
+                      <p class="author-title">Corretor de Imóveis</p>
+                    </div>
+      
+                  </div>
+      
+                  <div class="card-footer-actions">
+      
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+      
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+      
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+      
+                  </div>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="property-card">
+      
+                <figure class="card-banner">
+      
+                  <a href="#">
+                    <img src="./assets/images/property-3.jpg" alt="Apartamento Confortável" class="w-100">
+                  </a>
+      
+                  <div class="card-badge green">Para Alugar</div>
+      
+                  <div class="banner-actions">
+      
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+      
+                      <address>Belmont Gardens, Chicago</address>
+                    </button>
+      
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+      
+                      <span>4</span>
+                    </button>
+      
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+      
+                      <span>2</span>
+                    </button>
+      
+                  </div>
+      
+                </figure>
+      
+                <div class="card-content">
+      
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Mês
+                  </div>
+      
+                  <h3 class="h3 card-title">
+                    <a href="#">Apartamento Confortável</a>
+                  </h3>
+      
+                  <p class="card-text">
+                    Linda Casa de 1 Família no Coração de Westbury. Recém Reformada com Piso de Madeira Novo
+                  </p>
+      
+                  <ul class="card-list">
+      
+                    <li class="card-item">
+                      <strong>3</strong>
+      
+                      <ion-icon name="bed-outline"></ion-icon>
+      
+                      <span>Quartos</span>
+                    </li>
+      
+                    <li class="card-item">
+                      <strong>2</strong>
+      
+                      <ion-icon name="man-outline"></ion-icon>
+      
+                      <span>Banheiros</span>
+                    </li>
+      
+                    <li class="card-item">
+                      <strong>3450</strong>
+      
+                      <ion-icon name="square-outline"></ion-icon>
+      
+                      <span>Área (Ft²)</span>
+                    </li>
+      
+                  </ul>
+      
+                </div>
+      
+                <div class="card-footer">
+      
+                  <div class="card-author">
+      
+                    <figure class="author-avatar">
+                      <img src="./assets/images/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+      
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+      
+                      <p class="author-title">Corretor de Imóveis</p>
+                    </div>
+      
+                  </div>
+      
+                  <div class="card-footer-actions">
+      
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+      
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+      
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+      
+                  </div>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="property-card">
+      
+                <figure class="card-banner">
+      
+                  <a href="#">
+                    <img src="./assets/images/property-4.png" alt="Vila de Luxo em Rego Park" class="w-100">
+                  </a>
+      
+                  <div class="card-badge green">Para Alugar</div>
+      
+                  <div class="banner-actions">
+      
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+      
+                      <address>Belmont Gardens, Chicago</address>
+                    </button>
+      
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+      
+                      <span>4</span>
+                    </button>
+      
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+      
+                      <span>2</span>
+                    </button>
+      
+                  </div>
+      
+                </figure>
+      
+                <div class="card-content">
+      
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Mês
+                  </div>
+      
+                  <h3 class="h3 card-title">
+                    <a href="#">Vila de Luxo em Rego Park</a>
+                  </h3>
+      
+                  <p class="card-text">
+                    Linda Casa de 1 Família no Coração de Westbury. Recém Reformada com Piso de Madeira Novo
+                  </p>
+      
+                  <ul class="card-list">
+      
+                    <li class="card-item">
+                      <strong>3</strong>
+      
+                      <ion-icon name="bed-outline"></ion-icon>
+      
+                      <span>Quartos</span>
+                    </li>
+      
+                    <li class="card-item">
+                      <strong>2</strong>
+      
+                      <ion-icon name="man-outline"></ion-icon>
+      
+                      <span>Banheiros</span>
+                    </li>
+      
+                    <li class="card-item">
+                      <strong>3450</strong>
+      
+                      <ion-icon name="square-outline"></ion-icon>
+      
+                      <span>Área (Ft²)</span>
+                    </li>
+      
+                  </ul>
+      
+                </div>
+      
+                <div class="card-footer">
+      
+                  <div class="card-author">
+      
+                    <figure class="author-avatar">
+                      <img src="./assets/images/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+      
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+      
+                      <p class="author-title">Corretor de Imóveis</p>
+                    </div>
+      
+                  </div>
+      
+                  <div class="card-footer-actions">
+      
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+      
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+      
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+      
+                  </div>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+          </ul>
+        </div>
+      </section>
+      
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta">
+        <div class="container">
+
+          <div class="cta-card">
+            <div class="card-content">
+              <h2 class="h2 card-title">Ficou com alguma dúvida?</h2>
+
+              <p class="card-text">Fale com um de nossos consultores</p>
+            </div>
+
+            <button class="btn cta-btn">
+              <span>Falar com Consultor</span>
+
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+  
+        <div class="footer-brand">
+  
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" alt="Logo Homeverse" class="logo-footer">
+          </a>
+  
+          <p class="section-text">
+            Oferecemos imóveis para aluguel e venda, com foco em atendimento personalizado, qualidade e segurança em cada transação.
+          </p>
+  
+          
+  
+          <ul class="social-list">
+            <a href="https://www.instagram.com/eduardocanellasimoveis/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYVJREFUSEvFVUFOAzEMnPkE17YvgV565wFI9CUUiX90+wxOwEsoHLjzAtOJksibpEsQWnVPrdb2jMdjLzHzw5nr4zIAZrYEcA/gGsDNRJfH+O4VwCPJ9D+nVB2YmQrvY4QSlDz1iIxIKPZAcueDRwCR+buKklz3zifmvcT4LclMqgQQc3WwarVbAprZnaQB8A3gFkBFrgRQwLHFPkonORYA3kgOZrYB8Azgk+TCzEIXPr8EMAADyW1iG9tXZ+WwpfkTgC8AVyQPEWB5+r1K+T0AYqXicsnOOewhdpuLmVmQmKfALgDnqFDcz8C9W6eh9gLkYimhNXTnuCr+tw58glhLiqarzEwz+xeAtNcMWhIlcPl+kHy9EmUXOQfJnmFLiyGPFvLPAJGVip+zqQac708PQLUoDkRy6fh9RHsGWQpnVYvaOhUqNGLWc5Ocq0aLeu7Yqe1ukGLb816Es9FoM51rf+t7zrVisqOam1zcH/k/3fopgPTNkMuqb8dlPpk9Q+2Nmb2DH26X+xln2NoRAAAAAElFTkSuQmCC"/></a>
+          </ul>
+  
+        </div>
+  
+        <div class="footer-link-box">
+  
+          <ul class="footer-list">
+  
+            <li>
+              <p class="footer-list-title">Empresa</p>
+            </li>
+  
+            <li>
+              <a href="#about" class="footer-link">Sobre</a>
+            </li>
+  
+          </ul>
+  
+          <ul class="footer-list">
+  
+            <li>
+              <p class="footer-list-title">Serviços</p>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Termos & Condições</a>
+            </li>
+  
+          </ul>
+  
+          <ul class="footer-list">
+  
+            <li>
+              <p class="footer-list-title">Atendimento ao Cliente</p>
+            </li>
+  
+            <ul class="contact-list">
+    
+              <li>
+                <a href="tel:+ (22) 2134-0140" class="contact-link">
+                  <ion-icon name="call-outline"></ion-icon>
+    
+                  <span><i class="ri-phone-fill"></i> (22) 2134-0140</span>
+                </a>
+              </li>
+    
+              <li>
+                <a href="mailto:ecanellasimoveis@gmail.com" class="contact-link">
+                  <ion-icon name="mail-outline"></ion-icon>
+    
+                  <span><i class="ri-mail-fill"></i> ecanellasimoveis@gmail.com</span>
+                </a>
+              </li>
+    
+            </ul>
+  
+          </ul>
+  
+        </div>
+  
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <div class="container">
+  
+        <p class="copyright">
+          <i class="ri-map-pin-fill"></i> Rodovia Amaral Peixoto, km 96, n° 1333, loja: 01, Parque Tamariz, Iguaba Grande -RJ, CEP: 28961-206
+        </p>
+  
+      </div>
+    </div>
+  
+  </footer>
+  
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
