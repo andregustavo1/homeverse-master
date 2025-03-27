@@ -1597,3 +1597,54 @@ button, a { transition: var(--transition); }
   .footer-link-box { flex-basis: 700px; }
 
 }
+
+
+
+
+
+/*-----------------------------------*\
+  #VIDEOS
+\*-----------------------------------*/
+
+.videos, .animated-logo {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.video-card, .logo-video-wrapper {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.video-player, .logo-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.video-description, .logo-description {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #555;
+}
